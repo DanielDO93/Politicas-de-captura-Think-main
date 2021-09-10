@@ -28,14 +28,10 @@ class TA14View extends Component {
     this.Auth = new AuthService();
     this.state = {
       modal: false,
-
       acierto1: "",
       id_ccs: this.Auth.getProfile().id_ccs,
       form: 'casosAtipicos',
-
-
     }
-
     this.toggleM = this.toggleM.bind(this)
   }
 
@@ -62,11 +58,9 @@ class TA14View extends Component {
     }
   }
 
-  dosFun() {
-    this.onSave.bind(this);
-    this.toggleM()
+  
 
-  }
+  
 
   render() {
     return (
@@ -88,7 +82,7 @@ class TA14View extends Component {
             <Col xs="4">
               <div>
                 <Form>
-                  <div>
+                  <div >
                     <FormGroup
                       tag="fieldset"
                     >
