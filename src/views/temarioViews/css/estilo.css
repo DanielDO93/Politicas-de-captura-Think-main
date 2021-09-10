@@ -242,10 +242,10 @@ td,th{
 	  }
 
 	  .globo {
-		border-bottom: solid 6px #c00327 !important;
-	border-top: solid 6px #c00327 !important;
-	border-left: solid 6px #c00327 !important;
-	border-right: solid 6px #c00327 !important;
+		border-bottom: solid 6px #003d54 !important;
+	border-top: solid 6px #003d54 !important;
+	border-left: solid 6px #003d54 !important;
+	border-right: solid 6px #003d54 !important;
 	border-radius: 90px 70px 90px 70px;
 		
 	
@@ -257,7 +257,7 @@ td,th{
 	  }
 	  .globo:after {
 		border: solid 10px transparent;
-		border-top-color: #c00327;;  /* igual al color de fondo */
+		border-top-color: #003d54;;  /* igual al color de fondo */
 		border-bottom: 10px;
 		bottom: -26px;  /* igual al borde + el padding-bottom de la definición anterior */
 		content: "";
@@ -266,6 +266,11 @@ td,th{
 		overflow: hidden;
 		position: relative;
 		width: 0px;
+	  }
+
+
+	  .bgB{
+		  background-color: 003d54;
 	  }
 
 
