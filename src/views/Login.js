@@ -97,10 +97,10 @@ class Login extends Component {
       <div className="app flex-row align-items-center" id="bg">
         <Container>
           <Row className="justify-content-center">
-            <Col md="8">
+            <Col md="8" >
               <CardGroup>
-                <Card className="p-4">
-                  <CardBody>
+                <Card className="p-4 " >
+                  <CardBody >
                     <Form onSubmit={this.handleFormSubmit} className="text-center">
                     <img src={logo} alt="Logo CCS" style={{ width: "300px" }} />
                       <h1>Login</h1>
