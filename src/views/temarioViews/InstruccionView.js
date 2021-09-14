@@ -18,10 +18,9 @@ class InstruccionView extends Component {
           <Row className="centrado-fila">
             <Col xs="3">
                 <ReactPlayer
-                playing={true}
+                 playing={true}
                   width={400}
                   url={Diapositiva2video1}
-                  style={{ cursor: "pointer" }}
                 />
             </Col>
             <Col xs="4">
